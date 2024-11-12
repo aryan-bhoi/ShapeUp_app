@@ -1,0 +1,100 @@
+/* HomeContent.css */
+
+/* General Styles */
+.main-title {
+  color: #004085;
+  font-weight: 800;
+  font-size: 2.8rem;
+  margin-bottom: 1rem;
+  line-height: 1.2;
+}
+
+.main-description {
+  color: #495057;
+  font-size: 1.15rem;
+  margin-bottom: 2rem;
+}
+
+/* Call to Action Title & Description */
+.cta-title {
+  color: #333;
+  font-weight: bold;
+  font-size: 2.2rem;
+  line-height: 1.3;
+  margin-bottom: 1rem;
+}
+
+.cta-description {
+  color: #5c636a;
+  font-size: 1.1rem;
+  margin-bottom: 1.5rem;
+}
+
+/* Info Card Styles */
+.info-card {
+  background-color: #ffffff;
+  border: none;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.info-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}
+
+.card-title {
+  color: #004085;
+  font-weight: 700;
+  font-size: 1.25rem;
+  margin-bottom: 1rem;
+}
+
+/* Call to Action Button Styles */
+.cta-button {
+  font-weight: bold;
+  font-size: 1rem;
+  padding: 0.8rem 1.8rem;
+  border-radius: 5px;
+  color: #fff;
+  background-color: #28a745;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.cta-button:hover {
+  background-color: #218838;
+  transform: translateY(-3px);
+  box-shadow: 0 4px 10px rgba(0, 123, 255, 0.3);
+}
+
+.cta-button-outline {
+  font-weight: bold;
+  font-size: 1rem;
+  padding: 0.8rem 1.8rem;
+  border-radius: 5px;
+  border: 2px solid #004085;
+  color: #004085;
+  background-color: transparent;
+  transition: background 0.3s ease, color 0.3s ease, transform 0.2s ease;
+}
+
+.cta-button-outline:hover {
+  background-color: #004085;
+  color: #fff;
+  transform: translateY(-3px);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Banner Image */
+.banner-image {
+  border-radius: 12px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+.banner-image:hover {
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+  transform: scale(1.03);
+}
